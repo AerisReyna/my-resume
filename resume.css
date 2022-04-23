@@ -1,0 +1,111 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .75em;
+    background-color: ghostwhite;
+    color: #3A243B;
+}
+main {
+    display: flex;
+    width: 100%;
+}
+
+#left-column {
+    width: 750%;
+    line-height: 100%;
+    margin: 5px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#right-column {
+    width: 25%;
+    padding: 20px;
+    border-left: 2px solid #3A243B;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: flex-start;
+    border-bottom: 2px solid #3A243B;
+}
+
+header p {
+    margin: 0;
+    margin-bottom: 15px;
+    width: 80%;
+    text-align: center;
+}
+
+#projects {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3A243B;
+}
+
+#interests {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3A243B;
+}
+
+#education {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3A243B;
+}
+
+#contact-info {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3A243B;
+}
+
+#links {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3A243B;
+}
+
+#experience {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3A243B;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+h4 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+p {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+ul {
+    margin: 0px;
+}
+
+.project-links{
+    margin-left: 25px;
+}
